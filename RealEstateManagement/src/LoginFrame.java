@@ -2,6 +2,7 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JTextField;
+import javax.swing.JButton;
 
 public class LoginFrame {
 
@@ -44,5 +45,9 @@ public class LoginFrame {
 		textField.setBounds(64, 71, 86, 20);
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setBounds(104, 114, 89, 23);
+		frame.getContentPane().add(btnNewButton);
 	}
 }
